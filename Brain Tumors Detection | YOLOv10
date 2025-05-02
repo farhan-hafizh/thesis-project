@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "57e2057f",
+   "id": "2e06c9ec",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:55:37.004043Z",
-     "iopub.status.busy": "2025-04-28T09:55:37.003849Z",
-     "iopub.status.idle": "2025-04-28T09:57:12.914996Z",
-     "shell.execute_reply": "2025-04-28T09:57:12.914428Z"
+     "iopub.execute_input": "2025-05-02T07:00:41.472086Z",
+     "iopub.status.busy": "2025-05-02T07:00:41.471822Z",
+     "iopub.status.idle": "2025-05-02T07:02:15.007264Z",
+     "shell.execute_reply": "2025-05-02T07:02:15.006656Z"
     },
     "papermill": {
-     "duration": 95.916397,
-     "end_time": "2025-04-28T09:57:12.916178",
+     "duration": 93.541616,
+     "end_time": "2025-05-02T07:02:15.008724",
      "exception": false,
-     "start_time": "2025-04-28T09:55:36.999781",
+     "start_time": "2025-05-02T07:00:41.467108",
      "status": "completed"
     },
     "tags": []
@@ -30,7 +30,7 @@
       "Requirement already satisfied: plotly in /usr/local/lib/python3.11/dist-packages (5.24.1)\r\n",
       "Requirement already satisfied: torch in /usr/local/lib/python3.11/dist-packages (2.5.1+cu124)\r\n",
       "Collecting ultralytics\r\n",
-      "  Downloading ultralytics-8.3.119-py3-none-any.whl.metadata (37 kB)\r\n",
+      "  Downloading ultralytics-8.3.123-py3-none-any.whl.metadata (37 kB)\r\n",
       "Requirement already satisfied: tenacity>=6.2.0 in /usr/local/lib/python3.11/dist-packages (from plotly) (9.0.0)\r\n",
       "Requirement already satisfied: packaging in /usr/local/lib/python3.11/dist-packages (from plotly) (24.2)\r\n",
       "Requirement already satisfied: filelock in /usr/local/lib/python3.11/dist-packages (from torch) (3.18.0)\r\n",
@@ -103,19 +103,19 @@
       "Downloading nvidia_cublas_cu12-12.4.5.8-py3-none-manylinux2014_x86_64.whl (363.4 MB)\r\n",
       "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m363.4/363.4 MB\u001b[0m \u001b[31m4.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl (664.8 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m664.8/664.8 MB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m664.8/664.8 MB\u001b[0m \u001b[31m2.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl (211.5 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m211.5/211.5 MB\u001b[0m \u001b[31m8.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m211.5/211.5 MB\u001b[0m \u001b[31m4.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading nvidia_curand_cu12-10.3.5.147-py3-none-manylinux2014_x86_64.whl (56.3 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m56.3/56.3 MB\u001b[0m \u001b[31m30.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m56.3/56.3 MB\u001b[0m \u001b[31m3.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading nvidia_cusolver_cu12-11.6.1.9-py3-none-manylinux2014_x86_64.whl (127.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m127.9/127.9 MB\u001b[0m \u001b[31m8.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m127.9/127.9 MB\u001b[0m \u001b[31m13.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading nvidia_cusparse_cu12-12.3.1.170-py3-none-manylinux2014_x86_64.whl (207.5 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m207.5/207.5 MB\u001b[0m \u001b[31m8.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m207.5/207.5 MB\u001b[0m \u001b[31m8.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading nvidia_nvjitlink_cu12-12.4.127-py3-none-manylinux2014_x86_64.whl (21.1 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m21.1/21.1 MB\u001b[0m \u001b[31m87.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
-      "\u001b[?25hDownloading ultralytics-8.3.119-py3-none-any.whl (1.0 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.0/1.0 MB\u001b[0m \u001b[31m44.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m21.1/21.1 MB\u001b[0m \u001b[31m78.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hDownloading ultralytics-8.3.123-py3-none-any.whl (1.0 MB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.0/1.0 MB\u001b[0m \u001b[31m47.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading ultralytics_thop-2.0.14-py3-none-any.whl (26 kB)\r\n",
       "Installing collected packages: nvidia-nvjitlink-cu12, nvidia-curand-cu12, nvidia-cufft-cu12, nvidia-cublas-cu12, nvidia-cusparse-cu12, nvidia-cudnn-cu12, nvidia-cusolver-cu12, ultralytics-thop, ultralytics\r\n",
       "  Attempting uninstall: nvidia-nvjitlink-cu12\r\n",
@@ -149,7 +149,7 @@
       "\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n",
       "pylibcugraph-cu12 24.12.0 requires pylibraft-cu12==24.12.*, but you have pylibraft-cu12 25.2.0 which is incompatible.\r\n",
       "pylibcugraph-cu12 24.12.0 requires rmm-cu12==24.12.*, but you have rmm-cu12 25.2.0 which is incompatible.\u001b[0m\u001b[31m\r\n",
-      "\u001b[0mSuccessfully installed nvidia-cublas-cu12-12.4.5.8 nvidia-cudnn-cu12-9.1.0.70 nvidia-cufft-cu12-11.2.1.3 nvidia-curand-cu12-10.3.5.147 nvidia-cusolver-cu12-11.6.1.9 nvidia-cusparse-cu12-12.3.1.170 nvidia-nvjitlink-cu12-12.4.127 ultralytics-8.3.119 ultralytics-thop-2.0.14\r\n",
+      "\u001b[0mSuccessfully installed nvidia-cublas-cu12-12.4.5.8 nvidia-cudnn-cu12-9.1.0.70 nvidia-cufft-cu12-11.2.1.3 nvidia-curand-cu12-10.3.5.147 nvidia-cusolver-cu12-11.6.1.9 nvidia-cusparse-cu12-12.3.1.170 nvidia-nvjitlink-cu12-12.4.127 ultralytics-8.3.123 ultralytics-thop-2.0.14\r\n",
       "Requirement already satisfied: ipywidgets in /usr/local/lib/python3.11/dist-packages (8.1.5)\r\n",
       "Collecting ipywidgets\r\n",
       "  Downloading ipywidgets-8.1.6-py3-none-any.whl.metadata (2.4 kB)\r\n",
@@ -173,11 +173,11 @@
       "Requirement already satisfied: ptyprocess>=0.5 in /usr/local/lib/python3.11/dist-packages (from pexpect>4.3->ipython>=6.1.0->ipywidgets) (0.7.0)\r\n",
       "Requirement already satisfied: wcwidth in /usr/local/lib/python3.11/dist-packages (from prompt-toolkit!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0->ipython>=6.1.0->ipywidgets) (0.2.13)\r\n",
       "Downloading ipywidgets-8.1.6-py3-none-any.whl (139 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m139.8/139.8 kB\u001b[0m \u001b[31m3.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m139.8/139.8 kB\u001b[0m \u001b[31m4.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading jupyterlab_widgets-3.0.14-py3-none-any.whl (213 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m214.0/214.0 kB\u001b[0m \u001b[31m9.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m214.0/214.0 kB\u001b[0m \u001b[31m10.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading widgetsnbextension-4.0.14-py3-none-any.whl (2.2 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.2/2.2 MB\u001b[0m \u001b[31m49.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.2/2.2 MB\u001b[0m \u001b[31m60.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: widgetsnbextension, jupyterlab_widgets, ipywidgets\r\n",
       "  Attempting uninstall: widgetsnbextension\r\n",
       "    Found existing installation: widgetsnbextension 4.0.13\r\n",
@@ -232,19 +232,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "d332f0d8",
+   "id": "b164ff20",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:57:12.956415Z",
-     "iopub.status.busy": "2025-04-28T09:57:12.955921Z",
-     "iopub.status.idle": "2025-04-28T09:57:12.959297Z",
-     "shell.execute_reply": "2025-04-28T09:57:12.958750Z"
+     "iopub.execute_input": "2025-05-02T07:02:15.056496Z",
+     "iopub.status.busy": "2025-05-02T07:02:15.056207Z",
+     "iopub.status.idle": "2025-05-02T07:02:15.059784Z",
+     "shell.execute_reply": "2025-05-02T07:02:15.059205Z"
     },
     "papermill": {
-     "duration": 0.023572,
-     "end_time": "2025-04-28T09:57:12.960389",
+     "duration": 0.028012,
+     "end_time": "2025-05-02T07:02:15.060832",
      "exception": false,
-     "start_time": "2025-04-28T09:57:12.936817",
+     "start_time": "2025-05-02T07:02:15.032820",
      "status": "completed"
     },
     "tags": []
@@ -258,19 +258,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "0a133e53",
+   "id": "708045fa",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:57:12.998404Z",
-     "iopub.status.busy": "2025-04-28T09:57:12.998187Z",
-     "iopub.status.idle": "2025-04-28T09:59:37.514844Z",
-     "shell.execute_reply": "2025-04-28T09:59:37.514045Z"
+     "iopub.execute_input": "2025-05-02T07:02:15.106163Z",
+     "iopub.status.busy": "2025-05-02T07:02:15.105895Z",
+     "iopub.status.idle": "2025-05-02T07:04:14.824243Z",
+     "shell.execute_reply": "2025-05-02T07:04:14.823415Z"
     },
     "papermill": {
-     "duration": 144.555433,
-     "end_time": "2025-04-28T09:59:37.534159",
+     "duration": 119.764291,
+     "end_time": "2025-05-02T07:04:14.847200",
      "exception": false,
-     "start_time": "2025-04-28T09:57:12.978726",
+     "start_time": "2025-05-02T07:02:15.082909",
      "status": "completed"
     },
     "tags": []
@@ -294,19 +294,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "bcedc82b",
+   "id": "9f3eba14",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:37.572895Z",
-     "iopub.status.busy": "2025-04-28T09:59:37.572661Z",
-     "iopub.status.idle": "2025-04-28T09:59:37.577507Z",
-     "shell.execute_reply": "2025-04-28T09:59:37.576950Z"
+     "iopub.execute_input": "2025-05-02T07:04:14.892738Z",
+     "iopub.status.busy": "2025-05-02T07:04:14.892142Z",
+     "iopub.status.idle": "2025-05-02T07:04:14.897027Z",
+     "shell.execute_reply": "2025-05-02T07:04:14.896502Z"
     },
     "papermill": {
-     "duration": 0.025196,
-     "end_time": "2025-04-28T09:59:37.578592",
+     "duration": 0.028791,
+     "end_time": "2025-05-02T07:04:14.898084",
      "exception": false,
-     "start_time": "2025-04-28T09:59:37.553396",
+     "start_time": "2025-05-02T07:04:14.869293",
      "status": "completed"
     },
     "tags": []
@@ -337,19 +337,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "58793ee9",
+   "id": "8c75bb1b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:37.617006Z",
-     "iopub.status.busy": "2025-04-28T09:59:37.616806Z",
-     "iopub.status.idle": "2025-04-28T09:59:37.621192Z",
-     "shell.execute_reply": "2025-04-28T09:59:37.620660Z"
+     "iopub.execute_input": "2025-05-02T07:04:14.942931Z",
+     "iopub.status.busy": "2025-05-02T07:04:14.942705Z",
+     "iopub.status.idle": "2025-05-02T07:04:14.947319Z",
+     "shell.execute_reply": "2025-05-02T07:04:14.946801Z"
     },
     "papermill": {
-     "duration": 0.02466,
-     "end_time": "2025-04-28T09:59:37.622161",
+     "duration": 0.028123,
+     "end_time": "2025-05-02T07:04:14.948379",
      "exception": false,
-     "start_time": "2025-04-28T09:59:37.597501",
+     "start_time": "2025-05-02T07:04:14.920256",
      "status": "completed"
     },
     "tags": []
@@ -372,19 +372,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "84aa859f",
+   "id": "86c8377f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:37.660352Z",
-     "iopub.status.busy": "2025-04-28T09:59:37.660122Z",
-     "iopub.status.idle": "2025-04-28T09:59:39.204026Z",
-     "shell.execute_reply": "2025-04-28T09:59:39.203447Z"
+     "iopub.execute_input": "2025-05-02T07:04:14.995173Z",
+     "iopub.status.busy": "2025-05-02T07:04:14.994428Z",
+     "iopub.status.idle": "2025-05-02T07:04:16.691104Z",
+     "shell.execute_reply": "2025-05-02T07:04:16.690319Z"
     },
     "papermill": {
-     "duration": 1.564195,
-     "end_time": "2025-04-28T09:59:39.205200",
+     "duration": 1.721315,
+     "end_time": "2025-05-02T07:04:16.692388",
      "exception": false,
-     "start_time": "2025-04-28T09:59:37.641005",
+     "start_time": "2025-05-02T07:04:14.971073",
      "status": "completed"
     },
     "tags": []
@@ -400,20 +400,20 @@
       "\u001b[34m\u001b[1mwandb\u001b[0m: Currently logged in as: \u001b[33mfarhannovyanh\u001b[0m (\u001b[33mfarhannovyanh-binus-university\u001b[0m) to \u001b[32mhttps://api.wandb.ai\u001b[0m. Use \u001b[1m`wandb login --relogin`\u001b[0m to force relogin\n",
       "\u001b[34m\u001b[1mwandb\u001b[0m: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.\n",
       "\u001b[34m\u001b[1mwandb\u001b[0m: Tracking run with wandb version 0.19.6\n",
-      "\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/run-20250428_095937-rpl39xbi\u001b[0m\n",
+      "\u001b[34m\u001b[1mwandb\u001b[0m: Run data is saved locally in \u001b[35m\u001b[1m/kaggle/working/wandb/run-20250502_070415-k7t18z5y\u001b[0m\n",
       "\u001b[34m\u001b[1mwandb\u001b[0m: Run \u001b[1m`wandb offline`\u001b[0m to turn off syncing.\n",
-      "\u001b[34m\u001b[1mwandb\u001b[0m: Syncing run \u001b[33mrich-silence-24\u001b[0m\n",
+      "\u001b[34m\u001b[1mwandb\u001b[0m: Syncing run \u001b[33mfallen-totem-25\u001b[0m\n",
       "\u001b[34m\u001b[1mwandb\u001b[0m: ⭐️ View project at \u001b[34m\u001b[4mhttps://wandb.ai/farhannovyanh-binus-university/YOLOv10\u001b[0m\n",
-      "\u001b[34m\u001b[1mwandb\u001b[0m: 🚀 View run at \u001b[34m\u001b[4mhttps://wandb.ai/farhannovyanh-binus-university/YOLOv10/runs/rpl39xbi\u001b[0m\n"
+      "\u001b[34m\u001b[1mwandb\u001b[0m: 🚀 View run at \u001b[34m\u001b[4mhttps://wandb.ai/farhannovyanh-binus-university/YOLOv10/runs/k7t18z5y\u001b[0m\n"
      ]
     },
     {
      "data": {
       "text/html": [
-       "<button onClick=\"this.nextSibling.style.display='block';this.style.display='none';\">Display W&B run</button><iframe src='https://wandb.ai/farhannovyanh-binus-university/YOLOv10/runs/rpl39xbi?jupyter=true' style='border:none;width:100%;height:420px;display:none;'></iframe>"
+       "<button onClick=\"this.nextSibling.style.display='block';this.style.display='none';\">Display W&B run</button><iframe src='https://wandb.ai/farhannovyanh-binus-university/YOLOv10/runs/k7t18z5y?jupyter=true' style='border:none;width:100%;height:420px;display:none;'></iframe>"
       ],
       "text/plain": [
-       "<wandb.sdk.wandb_run.Run at 0x7e0ebbe63d90>"
+       "<wandb.sdk.wandb_run.Run at 0x7db67a463d10>"
       ]
      },
      "execution_count": 6,
@@ -432,19 +432,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "09872189",
+   "id": "0b802629",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:39.295631Z",
-     "iopub.status.busy": "2025-04-28T09:59:39.295041Z",
-     "iopub.status.idle": "2025-04-28T09:59:40.445411Z",
-     "shell.execute_reply": "2025-04-28T09:59:40.444458Z"
+     "iopub.execute_input": "2025-05-02T07:04:16.792253Z",
+     "iopub.status.busy": "2025-05-02T07:04:16.791562Z",
+     "iopub.status.idle": "2025-05-02T07:04:17.952943Z",
+     "shell.execute_reply": "2025-05-02T07:04:17.952140Z"
     },
     "papermill": {
-     "duration": 1.221569,
-     "end_time": "2025-04-28T09:59:40.447086",
+     "duration": 1.237579,
+     "end_time": "2025-05-02T07:04:17.954422",
      "exception": false,
-     "start_time": "2025-04-28T09:59:39.225517",
+     "start_time": "2025-05-02T07:04:16.716843",
      "status": "completed"
     },
     "tags": []
@@ -461,7 +461,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "100%|██████████| 61.4M/61.4M [00:00<00:00, 152MB/s]\n"
+      "100%|██████████| 61.4M/61.4M [00:00<00:00, 305MB/s]\n"
      ]
     }
    ],
@@ -473,19 +473,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "1dee4e50",
+   "id": "ce398b55",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:40.497511Z",
-     "iopub.status.busy": "2025-04-28T09:59:40.496955Z",
-     "iopub.status.idle": "2025-04-28T09:59:40.535324Z",
-     "shell.execute_reply": "2025-04-28T09:59:40.534647Z"
+     "iopub.execute_input": "2025-05-02T07:04:18.004607Z",
+     "iopub.status.busy": "2025-05-02T07:04:18.004127Z",
+     "iopub.status.idle": "2025-05-02T07:04:18.041182Z",
+     "shell.execute_reply": "2025-05-02T07:04:18.040500Z"
     },
     "papermill": {
-     "duration": 0.064315,
-     "end_time": "2025-04-28T09:59:40.536454",
+     "duration": 0.062405,
+     "end_time": "2025-05-02T07:04:18.042248",
      "exception": false,
-     "start_time": "2025-04-28T09:59:40.472139",
+     "start_time": "2025-05-02T07:04:17.979843",
      "status": "completed"
     },
     "tags": []
@@ -506,19 +506,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "fb442670",
+   "id": "bf12b18e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:40.580133Z",
-     "iopub.status.busy": "2025-04-28T09:59:40.579918Z",
-     "iopub.status.idle": "2025-04-28T09:59:40.585074Z",
-     "shell.execute_reply": "2025-04-28T09:59:40.584461Z"
+     "iopub.execute_input": "2025-05-02T07:04:18.091902Z",
+     "iopub.status.busy": "2025-05-02T07:04:18.091264Z",
+     "iopub.status.idle": "2025-05-02T07:04:18.096548Z",
+     "shell.execute_reply": "2025-05-02T07:04:18.095865Z"
     },
     "papermill": {
-     "duration": 0.027352,
-     "end_time": "2025-04-28T09:59:40.586113",
+     "duration": 0.030398,
+     "end_time": "2025-05-02T07:04:18.097589",
      "exception": false,
-     "start_time": "2025-04-28T09:59:40.558761",
+     "start_time": "2025-05-02T07:04:18.067191",
      "status": "completed"
     },
     "tags": []
@@ -541,19 +541,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "3eac3045",
+   "id": "546c0da6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:40.627046Z",
-     "iopub.status.busy": "2025-04-28T09:59:40.626836Z",
-     "iopub.status.idle": "2025-04-28T09:59:40.629756Z",
-     "shell.execute_reply": "2025-04-28T09:59:40.629240Z"
+     "iopub.execute_input": "2025-05-02T07:04:18.145692Z",
+     "iopub.status.busy": "2025-05-02T07:04:18.145418Z",
+     "iopub.status.idle": "2025-05-02T07:04:18.148698Z",
+     "shell.execute_reply": "2025-05-02T07:04:18.148105Z"
     },
     "papermill": {
-     "duration": 0.024168,
-     "end_time": "2025-04-28T09:59:40.630765",
+     "duration": 0.028394,
+     "end_time": "2025-05-02T07:04:18.149823",
      "exception": false,
-     "start_time": "2025-04-28T09:59:40.606597",
+     "start_time": "2025-05-02T07:04:18.121429",
      "status": "completed"
     },
     "tags": []
@@ -566,19 +566,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "848f4fc8",
+   "id": "739946a4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T09:59:40.672231Z",
-     "iopub.status.busy": "2025-04-28T09:59:40.672036Z",
-     "iopub.status.idle": "2025-04-28T19:03:37.556663Z",
-     "shell.execute_reply": "2025-04-28T19:03:37.555741Z"
+     "iopub.execute_input": "2025-05-02T07:04:18.199154Z",
+     "iopub.status.busy": "2025-05-02T07:04:18.198641Z",
+     "iopub.status.idle": "2025-05-02T16:38:10.396075Z",
+     "shell.execute_reply": "2025-05-02T16:38:10.395085Z"
     },
     "papermill": {
-     "duration": 32636.90736,
-     "end_time": "2025-04-28T19:03:37.558315",
+     "duration": 34432.223311,
+     "end_time": "2025-05-02T16:38:10.397490",
      "exception": false,
-     "start_time": "2025-04-28T09:59:40.650955",
+     "start_time": "2025-05-02T07:04:18.174179",
      "status": "completed"
     },
     "tags": []
@@ -588,7 +588,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Ultralytics 8.3.119 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
+      "Ultralytics 8.3.123 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
       "                                                        CUDA:1 (Tesla T4, 15095MiB)\n",
       "\u001b[34m\u001b[1mengine/trainer: \u001b[0mtask=detect, mode=train, model=yolov10x.pt, data=/kaggle/working/dataset.yaml, epochs=55, time=None, patience=40, batch=16, imgsz=640, save=True, save_period=-1, cache=disk, device=[0, 1], workers=8, project=None, name=train, exist_ok=False, pretrained=True, optimizer=AdamW, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=True, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=True, opset=None, workspace=None, nms=False, lr0=0.001, lrf=0.0005, momentum=0.98, weight_decay=0.0005, warmup_epochs=5, warmup_momentum=0.8, warmup_bias_lr=0.1, box=0.4, cls=2.2, dfl=1.6, pose=12.0, kobj=1.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, cutmix=0.0, copy_paste=0.0, copy_paste_mode=flip, auto_augment=randaugment, erasing=0.4, cfg=None, tracker=botsort.yaml, save_dir=runs/detect/train\n",
       "Downloading https://ultralytics.com/assets/Arial.ttf to '/root/.config/Ultralytics/Arial.ttf'...\n"
@@ -598,7 +598,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "100%|██████████| 755k/755k [00:00<00:00, 17.3MB/s]\n"
+      "100%|██████████| 755k/755k [00:00<00:00, 26.8MB/s]\n"
      ]
     },
     {
@@ -635,8 +635,8 @@
       "YOLOv10x summary: 400 layers, 31,662,584 parameters, 31,662,568 gradients, 171.0 GFLOPs\n",
       "\n",
       "Transferred 1123/1135 items from pretrained weights\n",
-      "\u001b[34m\u001b[1mDDP:\u001b[0m debug command /usr/bin/python3 -m torch.distributed.run --nproc_per_node 2 --master_port 38067 /root/.config/Ultralytics/DDP/_temp_k3etip6y138601747482128.py\n",
-      "Ultralytics 8.3.119 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
+      "\u001b[34m\u001b[1mDDP:\u001b[0m debug command /usr/bin/python3 -m torch.distributed.run --nproc_per_node 2 --master_port 53919 /root/.config/Ultralytics/DDP/_temp_39ir1b38138222689354512.py\n",
+      "Ultralytics 8.3.123 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
       "                                                        CUDA:1 (Tesla T4, 15095MiB)\n",
       "Overriding model.yaml nc=80 with nc=4\n",
       "Transferred 1123/1135 items from pretrained weights\n",
@@ -649,7 +649,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "100%|██████████| 5.35M/5.35M [00:00<00:00, 71.8MB/s]\n"
+      "100%|██████████| 5.35M/5.35M [00:00<00:00, 120MB/s]\n"
      ]
     },
     {
@@ -657,14 +657,14 @@
      "output_type": "stream",
      "text": [
       "\u001b[34m\u001b[1mAMP: \u001b[0mchecks passed ✅\n",
-      "\u001b[34m\u001b[1mtrain: \u001b[0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1234.7±468.4 MB/s, size: 43.7 KB)\n"
+      "\u001b[34m\u001b[1mtrain: \u001b[0mFast image access ✅ (ping: 0.0±0.0 ms, read: 918.9±267.8 MB/s, size: 43.7 KB)\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/working/dataset/Train/Glioma/labels... 12588 images, 0 backgrounds, 0 corrupt: 100%|██████████| 12588/12588 [00:08<00:00, 1502.68it/s]\n"
+      "\u001b[34m\u001b[1mtrain: \u001b[0mScanning /kaggle/working/dataset/Train/Glioma/labels... 12588 images, 0 backgrounds, 0 corrupt: 100%|██████████| 12588/12588 [00:08<00:00, 1517.48it/s]\n"
      ]
     },
     {
@@ -678,7 +678,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (8.6GB Disk): 100%|██████████| 12588/12588 [00:21<00:00, 573.20it/s]\n"
+      "\u001b[34m\u001b[1mtrain: \u001b[0mCaching images (8.6GB Disk): 100%|██████████| 12588/12588 [00:22<00:00, 558.57it/s]\n"
      ]
     },
     {
@@ -686,14 +686,14 @@
      "output_type": "stream",
      "text": [
       "\u001b[34m\u001b[1malbumentations: \u001b[0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, num_output_channels=3, method='weighted_average'), CLAHE(p=0.01, clip_limit=(1.0, 4.0), tile_grid_size=(8, 8))\n",
-      "\u001b[34m\u001b[1mval: \u001b[0mFast image access ✅ (ping: 0.0±0.0 ms, read: 11.7±4.7 MB/s, size: 41.1 KB)\n"
+      "\u001b[34m\u001b[1mval: \u001b[0mFast image access ✅ (ping: 0.0±0.0 ms, read: 15.4±3.5 MB/s, size: 41.1 KB)\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/working/dataset/Val/Glioma/labels... 1049 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1049/1049 [00:01<00:00, 571.76it/s]\n"
+      "\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/working/dataset/Val/Glioma/labels... 1049 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1049/1049 [00:01<00:00, 539.89it/s]\n"
      ]
     },
     {
@@ -707,7 +707,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.7GB Disk): 100%|██████████| 1049/1049 [00:01<00:00, 627.67it/s]\n"
+      "\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.7GB Disk): 100%|██████████| 1049/1049 [00:01<00:00, 635.74it/s]\n"
      ]
     },
     {
@@ -728,8 +728,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       1/55      9.04G     0.1545      12.68      3.606         16        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:37<00:00,  1.78it/s]\n"
+      "       1/55      9.04G     0.1545      12.68      3.606         16        640: 100%|██████████| 787/787 [10:20<00:00,  1.27it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:36<00:00,  1.81it/s]\n"
      ]
     },
     {
@@ -745,8 +745,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       2/55      9.26G     0.1518      10.47      3.512         12        640: 100%|██████████| 787/787 [09:25<00:00,  1.39it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "       2/55      9.26G     0.1518      10.47      3.512         12        640: 100%|██████████| 787/787 [10:05<00:00,  1.30it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -762,8 +762,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       3/55      9.19G     0.1487       9.45      3.421          7        640: 100%|██████████| 787/787 [09:21<00:00,  1.40it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "       3/55      9.19G     0.1487       9.45      3.421          7        640: 100%|██████████| 787/787 [10:01<00:00,  1.31it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -779,8 +779,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       4/55       9.2G     0.1432      8.753      3.314         11        640: 100%|██████████| 787/787 [09:16<00:00,  1.41it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "       4/55       9.2G     0.1432      8.753      3.314         11        640: 100%|██████████| 787/787 [09:55<00:00,  1.32it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.87it/s]\n"
      ]
     },
     {
@@ -796,8 +796,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       5/55      9.26G     0.1418      8.282      3.284          8        640: 100%|██████████| 787/787 [09:12<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "       5/55      9.26G     0.1418      8.282      3.284          8        640: 100%|██████████| 787/787 [09:51<00:00,  1.33it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -813,8 +813,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       6/55       9.2G     0.1396      7.592      3.243          8        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "       6/55       9.2G     0.1396      7.592      3.243          8        640: 100%|██████████| 787/787 [09:50<00:00,  1.33it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -830,8 +830,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       7/55      9.26G     0.1361      7.119      3.198         12        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "       7/55      9.26G     0.1361      7.119      3.198         12        640: 100%|██████████| 787/787 [09:50<00:00,  1.33it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -847,8 +847,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       8/55      9.27G     0.1336       6.78      3.143          8        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "       8/55      9.27G     0.1336       6.78      3.143          8        640: 100%|██████████| 787/787 [09:49<00:00,  1.33it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -864,8 +864,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "       9/55      9.26G      0.132      6.553      3.123         13        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "       9/55      9.26G      0.132      6.553      3.123         13        640: 100%|██████████| 787/787 [09:49<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -881,8 +881,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      10/55      9.18G     0.1317      6.317      3.121         11        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      10/55      9.18G     0.1317      6.317      3.121         11        640: 100%|██████████| 787/787 [09:48<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -898,8 +898,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      11/55      9.25G     0.1312      6.169      3.104         18        640: 100%|██████████| 787/787 [09:12<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      11/55      9.25G     0.1312      6.169      3.104         18        640: 100%|██████████| 787/787 [09:48<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -915,8 +915,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      12/55      9.26G     0.1294      5.942      3.096         10        640: 100%|██████████| 787/787 [09:12<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      12/55      9.26G     0.1294      5.942      3.096         10        640: 100%|██████████| 787/787 [09:48<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -932,8 +932,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      13/55      9.26G     0.1297      5.909      3.081         15        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      13/55      9.26G     0.1297      5.909      3.081         15        640: 100%|██████████| 787/787 [09:48<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -949,8 +949,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      14/55       9.2G     0.1282      5.682      3.041         10        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      14/55       9.2G     0.1282      5.682      3.041         10        640: 100%|██████████| 787/787 [09:48<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -966,8 +966,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      15/55      9.26G      0.127      5.631      3.019         12        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      15/55      9.26G      0.127      5.631      3.019         12        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -983,8 +983,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      16/55      9.26G     0.1241      5.413      2.975          7        640: 100%|██████████| 787/787 [09:12<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      16/55      9.26G     0.1241      5.413      2.975          7        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1000,8 +1000,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      17/55      9.26G     0.1249      5.262      2.974         14        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      17/55      9.26G     0.1249      5.262      2.974         14        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1017,8 +1017,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      18/55       9.2G     0.1244       5.27      2.995          5        640: 100%|██████████| 787/787 [09:14<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:36<00:00,  1.83it/s]\n"
+      "      18/55       9.2G     0.1244       5.27      2.995          5        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1034,8 +1034,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      19/55      9.26G      0.121       5.07      2.942         18        640: 100%|██████████| 787/787 [09:15<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      19/55      9.26G      0.121       5.07      2.942         18        640: 100%|██████████| 787/787 [09:48<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1051,8 +1051,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      20/55      9.26G     0.1225      5.031      2.947         12        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      20/55      9.26G     0.1225      5.031      2.947         12        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1068,8 +1068,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      21/55      9.27G     0.1209      4.947      2.917         11        640: 100%|██████████| 787/787 [09:10<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      21/55      9.27G     0.1209      4.947      2.917         11        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1085,8 +1085,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      22/55       9.2G     0.1197      4.846      2.917         15        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      22/55       9.2G     0.1197      4.846      2.917         15        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1102,8 +1102,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      23/55      9.26G     0.1207      4.815      2.911         17        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      23/55      9.26G     0.1207      4.815      2.911         17        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1119,8 +1119,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      24/55      9.26G     0.1201      4.758      2.914         10        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      24/55      9.26G     0.1201      4.758      2.914         10        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1136,8 +1136,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      25/55      9.26G     0.1213      4.835      2.927          5        640: 100%|██████████| 787/787 [09:14<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:36<00:00,  1.83it/s]\n"
+      "      25/55      9.26G     0.1213      4.835      2.927          5        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1153,8 +1153,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      26/55       9.2G     0.1179      4.518      2.873         11        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      26/55       9.2G     0.1179      4.518      2.873         11        640: 100%|██████████| 787/787 [09:45<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1170,8 +1170,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      27/55      9.26G     0.1177      4.529      2.867         18        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      27/55      9.26G     0.1177      4.529      2.867         18        640: 100%|██████████| 787/787 [09:45<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1187,8 +1187,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      28/55      9.26G     0.1167      4.483      2.836         14        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.83it/s]\n"
+      "      28/55      9.26G     0.1167      4.483      2.836         14        640: 100%|██████████| 787/787 [09:44<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1204,8 +1204,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      29/55      9.26G      0.116      4.335      2.838         12        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      29/55      9.26G      0.116      4.335      2.838         12        640: 100%|██████████| 787/787 [09:45<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1221,8 +1221,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      30/55       9.2G     0.1175      4.345       2.86          5        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      30/55       9.2G     0.1175      4.345       2.86          5        640: 100%|██████████| 787/787 [09:45<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1238,8 +1238,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      31/55      9.26G     0.1166      4.318      2.852         15        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      31/55      9.26G     0.1166      4.318      2.852         15        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1255,8 +1255,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      32/55      9.26G     0.1145      4.143      2.839         13        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      32/55      9.26G     0.1145      4.143      2.839         13        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1272,8 +1272,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      33/55      9.26G     0.1134      4.129      2.801          8        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      33/55      9.26G     0.1134      4.129      2.801          8        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1289,8 +1289,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      34/55       9.2G     0.1151      4.116      2.813         14        640: 100%|██████████| 787/787 [09:10<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      34/55       9.2G     0.1151      4.116      2.813         14        640: 100%|██████████| 787/787 [09:45<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1306,8 +1306,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      35/55      9.26G     0.1141      4.064      2.806         12        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      35/55      9.26G     0.1141      4.064      2.806         12        640: 100%|██████████| 787/787 [09:45<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1323,8 +1323,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      36/55      9.26G     0.1129      4.076      2.798         12        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      36/55      9.26G     0.1129      4.076      2.798         12        640: 100%|██████████| 787/787 [09:45<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1340,8 +1340,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      37/55      9.26G     0.1123      4.043       2.78         10        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      37/55      9.26G     0.1123      4.043       2.78         10        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1357,8 +1357,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      38/55       9.2G     0.1101      3.899      2.762         13        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      38/55       9.2G     0.1101      3.899      2.762         13        640: 100%|██████████| 787/787 [09:47<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1374,8 +1374,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      39/55      9.26G     0.1096      3.895      2.746          4        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      39/55      9.26G     0.1096      3.895      2.746          4        640: 100%|██████████| 787/787 [09:46<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1391,8 +1391,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      40/55      9.26G     0.1097       3.87      2.749         13        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      40/55      9.26G     0.1097       3.87      2.749         13        640: 100%|██████████| 787/787 [09:45<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1408,8 +1408,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      41/55      9.26G     0.1091       3.76      2.741         10        640: 100%|██████████| 787/787 [09:20<00:00,  1.40it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:36<00:00,  1.83it/s]\n"
+      "      41/55      9.26G     0.1091       3.76      2.741         10        640: 100%|██████████| 787/787 [09:45<00:00,  1.34it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1425,8 +1425,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      42/55       9.2G     0.1084      3.721      2.728          8        640: 100%|██████████| 787/787 [09:16<00:00,  1.41it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:36<00:00,  1.83it/s]\n"
+      "      42/55       9.2G     0.1084      3.721      2.728          8        640: 100%|██████████| 787/787 [09:45<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1442,8 +1442,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      43/55      9.27G     0.1081      3.705      2.714         13        640: 100%|██████████| 787/787 [09:16<00:00,  1.41it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:36<00:00,  1.83it/s]\n"
+      "      43/55      9.27G     0.1081      3.705      2.714         13        640: 100%|██████████| 787/787 [09:44<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1459,8 +1459,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      44/55      9.26G     0.1064      3.629      2.703         14        640: 100%|██████████| 787/787 [09:14<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      44/55      9.26G     0.1064      3.629      2.703         14        640: 100%|██████████| 787/787 [09:44<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1476,8 +1476,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      45/55      9.26G     0.1063      3.644      2.697          7        640: 100%|██████████| 787/787 [09:15<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      45/55      9.26G     0.1063      3.644      2.697          7        640: 100%|██████████| 787/787 [09:44<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1495,8 +1495,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      46/55       9.2G    0.09935      2.695      2.675          7        640: 100%|██████████| 787/787 [09:13<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      46/55       9.2G    0.09935      2.695      2.675          7        640: 100%|██████████| 787/787 [09:41<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1512,8 +1512,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      47/55      9.25G    0.09771      2.634      2.655          7        640: 100%|██████████| 787/787 [09:14<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.83it/s]\n"
+      "      47/55      9.25G    0.09771      2.634      2.655          7        640: 100%|██████████| 787/787 [09:40<00:00,  1.36it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1529,8 +1529,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      48/55      9.25G    0.09846      2.579      2.661          6        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      48/55      9.25G    0.09846      2.579      2.661          6        640: 100%|██████████| 787/787 [09:42<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1546,8 +1546,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      49/55      9.27G     0.0987      2.602      2.655          6        640: 100%|██████████| 787/787 [09:12<00:00,  1.42it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.83it/s]\n"
+      "      49/55      9.27G     0.0987      2.602      2.655          6        640: 100%|██████████| 787/787 [09:41<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1563,8 +1563,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      50/55       9.2G     0.0979      2.572      2.652          7        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      50/55       9.2G     0.0979      2.572      2.652          7        640: 100%|██████████| 787/787 [09:41<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.90it/s]\n"
      ]
     },
     {
@@ -1580,8 +1580,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      51/55      9.26G    0.09733      2.528      2.644          7        640: 100%|██████████| 787/787 [09:10<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.83it/s]\n"
+      "      51/55      9.26G    0.09733      2.528      2.644          7        640: 100%|██████████| 787/787 [09:43<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1597,8 +1597,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      52/55      9.26G    0.09822      2.579      2.654          7        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      52/55      9.26G    0.09822      2.579      2.654          7        640: 100%|██████████| 787/787 [09:42<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1614,8 +1614,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      53/55      9.26G    0.09664      2.517      2.625          6        640: 100%|██████████| 787/787 [09:10<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.85it/s]\n"
+      "      53/55      9.26G    0.09664      2.517      2.625          6        640: 100%|██████████| 787/787 [09:41<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1631,8 +1631,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      54/55       9.2G    0.09692      2.528      2.637          6        640: 100%|██████████| 787/787 [09:12<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.84it/s]\n"
+      "      54/55       9.2G    0.09692      2.528      2.637          6        640: 100%|██████████| 787/787 [09:41<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:35<00:00,  1.88it/s]\n"
      ]
     },
     {
@@ -1648,8 +1648,8 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "      55/55      9.26G    0.09733      2.534       2.63         10        640: 100%|██████████| 787/787 [09:11<00:00,  1.43it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:36<00:00,  1.82it/s]\n"
+      "      55/55      9.26G    0.09733      2.534       2.63         10        640: 100%|██████████| 787/787 [09:42<00:00,  1.35it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:34<00:00,  1.89it/s]\n"
      ]
     },
     {
@@ -1658,12 +1658,12 @@
      "text": [
       "                   all       1049       1186       0.93      0.915      0.938      0.578\n",
       "\n",
-      "55 epochs completed in 9.038 hours.\n",
+      "55 epochs completed in 9.537 hours.\n",
       "Optimizer stripped from runs/detect/train/weights/last.pt, 64.1MB\n",
       "Optimizer stripped from runs/detect/train/weights/best.pt, 64.1MB\n",
       "\n",
       "Validating runs/detect/train/weights/best.pt...\n",
-      "Ultralytics 8.3.119 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
+      "Ultralytics 8.3.123 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
       "                                                        CUDA:1 (Tesla T4, 15095MiB)\n",
       "YOLOv10x summary (fused): 192 layers, 29,400,380 parameters, 0 gradients, 160.0 GFLOPs\n"
      ]
@@ -1672,7 +1672,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:32<00:00,  2.02it/s]\n"
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [00:32<00:00,  2.03it/s]\n"
      ]
     },
     {
@@ -1700,7 +1700,7 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Speed: 0.2ms preprocess, 28.2ms inference, 0.0ms loss, 0.1ms postprocess per image\n",
+      "Speed: 0.2ms preprocess, 28.4ms inference, 0.0ms loss, 0.1ms postprocess per image\n",
       "Results saved to \u001b[1mruns/detect/train\u001b[0m\n"
      ]
     }
@@ -1734,19 +1734,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "ba17757d",
+   "id": "d82753e2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T19:03:42.422178Z",
-     "iopub.status.busy": "2025-04-28T19:03:42.421886Z",
-     "iopub.status.idle": "2025-04-28T19:03:45.886767Z",
-     "shell.execute_reply": "2025-04-28T19:03:45.886053Z"
+     "iopub.execute_input": "2025-05-02T16:38:14.791433Z",
+     "iopub.status.busy": "2025-05-02T16:38:14.790935Z",
+     "iopub.status.idle": "2025-05-02T16:38:17.896362Z",
+     "shell.execute_reply": "2025-05-02T16:38:17.895679Z"
     },
     "papermill": {
-     "duration": 5.888695,
-     "end_time": "2025-04-28T19:03:45.890240",
+     "duration": 5.357379,
+     "end_time": "2025-05-02T16:38:17.899341",
      "exception": false,
-     "start_time": "2025-04-28T19:03:40.001545",
+     "start_time": "2025-05-02T16:38:12.541962",
      "status": "completed"
     },
     "tags": []
@@ -1875,19 +1875,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "da750b21",
+   "id": "084b2fba",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T19:03:50.854071Z",
-     "iopub.status.busy": "2025-04-28T19:03:50.853784Z",
-     "iopub.status.idle": "2025-04-28T19:05:20.040775Z",
-     "shell.execute_reply": "2025-04-28T19:05:20.039791Z"
+     "iopub.execute_input": "2025-05-02T16:38:22.477529Z",
+     "iopub.status.busy": "2025-05-02T16:38:22.477210Z",
+     "iopub.status.idle": "2025-05-02T16:39:47.009242Z",
+     "shell.execute_reply": "2025-05-02T16:39:47.008365Z"
     },
     "papermill": {
-     "duration": 91.667276,
-     "end_time": "2025-04-28T19:05:20.042472",
+     "duration": 86.844807,
+     "end_time": "2025-05-02T16:39:47.011354",
      "exception": false,
-     "start_time": "2025-04-28T19:03:48.375196",
+     "start_time": "2025-05-02T16:38:20.166547",
      "status": "completed"
     },
     "tags": []
@@ -1897,17 +1897,130 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Ultralytics 8.3.119 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
+      "Ultralytics 8.3.123 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
       "                                                        CUDA:1 (Tesla T4, 15095MiB)\n",
       "YOLOv10x summary (fused): 192 layers, 29,400,380 parameters, 0 gradients, 160.0 GFLOPs\n",
-      "\u001b[34m\u001b[1mval: \u001b[0mFast image access ✅ (ping: 0.0±0.0 ms, read: 17.4±3.6 MB/s, size: 45.6 KB)\n"
+      "\u001b[34m\u001b[1mval: \u001b[0mFast image access ✅ (ping: 0.0±0.0 ms, read: 321.8±389.1 MB/s, size: 48.8 KB)\n"
      ]
     },
     {
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/working/dataset/Test/Glioma/labels... 1050 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1050/1050 [00:01<00:00, 610.56it/s]"
+      "\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/working/dataset/Val/Glioma/labels.cache... 1049 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1049/1049 [00:00<?, ?it/s]\n",
+      "\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.7GB Disk): 100%|██████████| 1049/1049 [00:00<00:00, 27469.72it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [01:18<00:00,  1.20s/it]\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "                   all       1049       1186      0.931      0.913      0.942      0.583\n",
+      "                Glioma        257        304      0.891      0.857      0.889      0.499\n",
+      "            Meningioma        317        324      0.965       0.96      0.985      0.616\n",
+      "              No Tumor        162        162      0.992      0.988      0.995      0.694\n",
+      "             Pituitary        371        396      0.875      0.848      0.901      0.522\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/usr/local/lib/python3.11/dist-packages/matplotlib/colors.py:721: RuntimeWarning: invalid value encountered in less\n",
+      "  xa[xa < 0] = -1\n",
+      "/usr/local/lib/python3.11/dist-packages/matplotlib/colors.py:721: RuntimeWarning: invalid value encountered in less\n",
+      "  xa[xa < 0] = -1\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Speed: 0.2ms preprocess, 72.3ms inference, 0.0ms loss, 0.1ms postprocess per image\n",
+      "Results saved to \u001b[1mruns/detect/train2\u001b[0m\n"
+     ]
+    }
+   ],
+   "source": [
+    "metricsVal = yolo_model.val(plots=True, split=\"val\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "200cfa9d",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2025-05-02T16:39:51.522293Z",
+     "iopub.status.busy": "2025-05-02T16:39:51.521755Z",
+     "iopub.status.idle": "2025-05-02T16:39:51.530895Z",
+     "shell.execute_reply": "2025-05-02T16:39:51.530134Z"
+    },
+    "papermill": {
+     "duration": 2.267003,
+     "end_time": "2025-05-02T16:39:51.532069",
+     "exception": false,
+     "start_time": "2025-05-02T16:39:49.265066",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "precision(B):  0.9305933152950967\n",
+      "metrics/recall(B):  0.9130911726318249\n",
+      "metrics/mAP50(B):  0.9422858817410382\n",
+      "metrics/mAP50-95(B):  0.5827309012069654\n"
+     ]
+    }
+   ],
+   "source": [
+    "# final results \n",
+    "print(\"precision(B): \", metricsVal.results_dict[\"metrics/precision(B)\"])\n",
+    "print(\"metrics/recall(B): \", metricsVal.results_dict[\"metrics/recall(B)\"])\n",
+    "print(\"metrics/mAP50(B): \", metricsVal.results_dict[\"metrics/mAP50(B)\"])\n",
+    "print(\"metrics/mAP50-95(B): \", metricsVal.results_dict[\"metrics/mAP50-95(B)\"])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "e051ca4b",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2025-05-02T16:39:55.945812Z",
+     "iopub.status.busy": "2025-05-02T16:39:55.945538Z",
+     "iopub.status.idle": "2025-05-02T16:41:20.383167Z",
+     "shell.execute_reply": "2025-05-02T16:41:20.382501Z"
+    },
+    "papermill": {
+     "duration": 86.563437,
+     "end_time": "2025-05-02T16:41:20.385299",
+     "exception": false,
+     "start_time": "2025-05-02T16:39:53.821862",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ultralytics 8.3.123 🚀 Python-3.11.11 torch-2.5.1+cu124 CUDA:0 (Tesla T4, 15095MiB)\n",
+      "                                                        CUDA:1 (Tesla T4, 15095MiB)\n",
+      "\u001b[34m\u001b[1mval: \u001b[0mFast image access ✅ (ping: 0.0±0.0 ms, read: 12.3±3.8 MB/s, size: 25.7 KB)\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "\u001b[34m\u001b[1mval: \u001b[0mScanning /kaggle/working/dataset/Test/Glioma/labels... 1050 images, 0 backgrounds, 0 corrupt: 100%|██████████| 1050/1050 [00:01<00:00, 606.59it/s]"
      ]
     },
     {
@@ -1922,8 +2035,8 @@
      "output_type": "stream",
      "text": [
       "\n",
-      "\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.7GB Disk): 100%|██████████| 1050/1050 [00:01<00:00, 1015.61it/s]\n",
-      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [01:20<00:00,  1.22s/it]\n"
+      "\u001b[34m\u001b[1mval: \u001b[0mCaching images (0.7GB Disk): 100%|██████████| 1050/1050 [00:00<00:00, 1082.56it/s]\n",
+      "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 66/66 [01:18<00:00,  1.20s/it]\n"
      ]
     },
     {
@@ -1951,31 +2064,31 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Speed: 0.2ms preprocess, 73.2ms inference, 0.0ms loss, 0.1ms postprocess per image\n",
-      "Results saved to \u001b[1mruns/detect/train2\u001b[0m\n"
+      "Speed: 0.2ms preprocess, 72.2ms inference, 0.0ms loss, 0.1ms postprocess per image\n",
+      "Results saved to \u001b[1mruns/detect/train3\u001b[0m\n"
      ]
     }
    ],
    "source": [
-    "metrics = yolo_model.val(plots=True, split=\"test\")"
+    "metricsTest = yolo_model.val(plots=True, split=\"test\")"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
-   "id": "2ad6c440",
+   "execution_count": 16,
+   "id": "1eb1a8be",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T19:05:24.955615Z",
-     "iopub.status.busy": "2025-04-28T19:05:24.955027Z",
-     "iopub.status.idle": "2025-04-28T19:05:24.964251Z",
-     "shell.execute_reply": "2025-04-28T19:05:24.963534Z"
+     "iopub.execute_input": "2025-05-02T16:41:25.088066Z",
+     "iopub.status.busy": "2025-05-02T16:41:25.087748Z",
+     "iopub.status.idle": "2025-05-02T16:41:25.097741Z",
+     "shell.execute_reply": "2025-05-02T16:41:25.096942Z"
     },
     "papermill": {
-     "duration": 2.479026,
-     "end_time": "2025-04-28T19:05:24.965584",
+     "duration": 2.294398,
+     "end_time": "2025-05-02T16:41:25.098947",
      "exception": false,
-     "start_time": "2025-04-28T19:05:22.486558",
+     "start_time": "2025-05-02T16:41:22.804549",
      "status": "completed"
     },
     "tags": []
@@ -1994,28 +2107,28 @@
    ],
    "source": [
     "# final results \n",
-    "print(\"precision(B): \", metrics.results_dict[\"metrics/precision(B)\"])\n",
-    "print(\"metrics/recall(B): \", metrics.results_dict[\"metrics/recall(B)\"])\n",
-    "print(\"metrics/mAP50(B): \", metrics.results_dict[\"metrics/mAP50(B)\"])\n",
-    "print(\"metrics/mAP50-95(B): \", metrics.results_dict[\"metrics/mAP50-95(B)\"])"
+    "print(\"precision(B): \", metricsTest.results_dict[\"metrics/precision(B)\"])\n",
+    "print(\"metrics/recall(B): \", metricsTest.results_dict[\"metrics/recall(B)\"])\n",
+    "print(\"metrics/mAP50(B): \", metricsTest.results_dict[\"metrics/mAP50(B)\"])\n",
+    "print(\"metrics/mAP50-95(B): \", metricsTest.results_dict[\"metrics/mAP50-95(B)\"])"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
-   "id": "ec44976f",
+   "execution_count": 17,
+   "id": "ce821fa7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T19:05:29.877582Z",
-     "iopub.status.busy": "2025-04-28T19:05:29.876885Z",
-     "iopub.status.idle": "2025-04-28T19:05:30.091838Z",
-     "shell.execute_reply": "2025-04-28T19:05:30.091161Z"
+     "iopub.execute_input": "2025-05-02T16:41:29.533642Z",
+     "iopub.status.busy": "2025-05-02T16:41:29.533233Z",
+     "iopub.status.idle": "2025-05-02T16:41:29.718219Z",
+     "shell.execute_reply": "2025-05-02T16:41:29.717419Z"
     },
     "papermill": {
-     "duration": 2.525631,
-     "end_time": "2025-04-28T19:05:30.093240",
+     "duration": 2.472159,
+     "end_time": "2025-05-02T16:41:29.719559",
      "exception": false,
-     "start_time": "2025-04-28T19:05:27.567609",
+     "start_time": "2025-05-02T16:41:27.247400",
      "status": "completed"
     },
     "tags": []
@@ -2028,20 +2141,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
-   "id": "dd35050f",
+   "execution_count": 18,
+   "id": "c0b7abd1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T19:05:35.079658Z",
-     "iopub.status.busy": "2025-04-28T19:05:35.078868Z",
-     "iopub.status.idle": "2025-04-28T19:05:35.086721Z",
-     "shell.execute_reply": "2025-04-28T19:05:35.086086Z"
+     "iopub.execute_input": "2025-05-02T16:41:34.136823Z",
+     "iopub.status.busy": "2025-05-02T16:41:34.136526Z",
+     "iopub.status.idle": "2025-05-02T16:41:34.143928Z",
+     "shell.execute_reply": "2025-05-02T16:41:34.143352Z"
     },
     "papermill": {
-     "duration": 2.506661,
-     "end_time": "2025-04-28T19:05:35.087910",
+     "duration": 2.149217,
+     "end_time": "2025-05-02T16:41:34.144995",
      "exception": false,
-     "start_time": "2025-04-28T19:05:32.581249",
+     "start_time": "2025-05-02T16:41:31.995778",
      "status": "completed"
     },
     "tags": []
@@ -2097,20 +2210,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 17,
-   "id": "53d33163",
+   "execution_count": 19,
+   "id": "fda7c362",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T19:05:40.142463Z",
-     "iopub.status.busy": "2025-04-28T19:05:40.141836Z",
-     "iopub.status.idle": "2025-04-28T19:05:53.441391Z",
-     "shell.execute_reply": "2025-04-28T19:05:53.440721Z"
+     "iopub.execute_input": "2025-05-02T16:41:38.675152Z",
+     "iopub.status.busy": "2025-05-02T16:41:38.674346Z",
+     "iopub.status.idle": "2025-05-02T16:41:51.081169Z",
+     "shell.execute_reply": "2025-05-02T16:41:51.080559Z"
     },
     "papermill": {
-     "duration": 15.817984,
-     "end_time": "2025-04-28T19:05:53.442811",
+     "duration": 14.697775,
+     "end_time": "2025-05-02T16:41:51.082476",
      "exception": false,
-     "start_time": "2025-04-28T19:05:37.624827",
+     "start_time": "2025-05-02T16:41:36.384701",
      "status": "completed"
     },
     "tags": []
@@ -2135,20 +2248,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
-   "id": "78b2458c",
+   "execution_count": 20,
+   "id": "7242f4dc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-04-28T19:05:58.201928Z",
-     "iopub.status.busy": "2025-04-28T19:05:58.201169Z",
-     "iopub.status.idle": "2025-04-28T19:06:00.219754Z",
-     "shell.execute_reply": "2025-04-28T19:06:00.218738Z"
+     "iopub.execute_input": "2025-05-02T16:41:55.643606Z",
+     "iopub.status.busy": "2025-05-02T16:41:55.643299Z",
+     "iopub.status.idle": "2025-05-02T16:41:57.445679Z",
+     "shell.execute_reply": "2025-05-02T16:41:57.444764Z"
     },
     "papermill": {
-     "duration": 4.496423,
-     "end_time": "2025-04-28T19:06:00.239027",
+     "duration": 4.07366,
+     "end_time": "2025-05-02T16:41:57.462586",
      "exception": false,
-     "start_time": "2025-04-28T19:05:55.742604",
+     "start_time": "2025-05-02T16:41:53.388926",
      "status": "completed"
     },
     "tags": []
@@ -2159,29 +2272,29 @@
      "output_type": "stream",
      "text": [
       "\n",
-      "0: 640x640 1 Glioma, 69.8ms\n",
-      "Speed: 3.9ms preprocess, 69.8ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)\n",
+      "0: 640x640 1 Glioma, 75.0ms\n",
+      "Speed: 3.1ms preprocess, 75.0ms inference, 0.6ms postprocess per image at shape (1, 3, 640, 640)\n",
       "\n",
-      "0: 640x640 2 Gliomas, 68.5ms\n",
-      "Speed: 3.1ms preprocess, 68.5ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)\n",
+      "0: 640x640 2 Gliomas, 46.7ms\n",
+      "Speed: 2.7ms preprocess, 46.7ms inference, 0.5ms postprocess per image at shape (1, 3, 640, 640)\n",
       "\n",
-      "0: 640x576 1 Meningioma, 73.6ms\n",
-      "Speed: 3.5ms preprocess, 73.6ms inference, 0.6ms postprocess per image at shape (1, 3, 640, 576)\n",
+      "0: 640x576 1 Meningioma, 49.3ms\n",
+      "Speed: 2.0ms preprocess, 49.3ms inference, 0.5ms postprocess per image at shape (1, 3, 640, 576)\n",
       "\n",
-      "0: 640x640 1 Meningioma, 50.8ms\n",
-      "Speed: 4.7ms preprocess, 50.8ms inference, 0.6ms postprocess per image at shape (1, 3, 640, 640)\n",
+      "0: 640x640 1 Meningioma, 47.9ms\n",
+      "Speed: 2.6ms preprocess, 47.9ms inference, 0.4ms postprocess per image at shape (1, 3, 640, 640)\n",
       "\n",
-      "0: 640x640 1 No Tumor, 50.5ms\n",
-      "Speed: 3.5ms preprocess, 50.5ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)\n",
+      "0: 640x640 1 No Tumor, 48.5ms\n",
+      "Speed: 2.6ms preprocess, 48.5ms inference, 0.5ms postprocess per image at shape (1, 3, 640, 640)\n",
       "\n",
-      "0: 640x640 1 No Tumor, 45.9ms\n",
-      "Speed: 4.2ms preprocess, 45.9ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)\n",
+      "0: 640x640 1 No Tumor, 48.0ms\n",
+      "Speed: 2.6ms preprocess, 48.0ms inference, 0.5ms postprocess per image at shape (1, 3, 640, 640)\n",
       "\n",
-      "0: 640x640 1 Pituitary, 48.5ms\n",
-      "Speed: 4.0ms preprocess, 48.5ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)\n",
+      "0: 640x640 1 Pituitary, 47.5ms\n",
+      "Speed: 2.4ms preprocess, 47.5ms inference, 0.5ms postprocess per image at shape (1, 3, 640, 640)\n",
       "\n",
-      "0: 640x640 1 Pituitary, 48.6ms\n",
-      "Speed: 3.2ms preprocess, 48.6ms inference, 1.1ms postprocess per image at shape (1, 3, 640, 640)\n"
+      "0: 640x640 1 Pituitary, 46.5ms\n",
+      "Speed: 2.8ms preprocess, 46.5ms inference, 0.4ms postprocess per image at shape (1, 3, 640, 640)\n"
      ]
     },
     {
@@ -2234,14 +2347,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 33033.373235,
-   "end_time": "2025-04-28T19:06:05.695661",
+   "duration": 34886.229992,
+   "end_time": "2025-05-02T16:42:03.354080",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-04-28T09:55:32.322426",
+   "start_time": "2025-05-02T07:00:37.124088",
    "version": "2.6.0"
   }
  },
